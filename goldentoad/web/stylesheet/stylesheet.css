@@ -1,0 +1,128 @@
+/* 
+    Document   : stylesheet
+    Created on : 17.10.2010, 13:38:58
+    Author     : Maestro
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+div.head{
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 964px;
+    height: 130px;
+    }
+
+div.nav{
+    border: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 35px;
+    width: 963px;
+    background-image: url(../images/background_nav.jpg);
+    background-color:orangered;
+
+}
+
+div.left{
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 150px;
+    padding-bottom: 15px;
+    position: absolute;
+    background-image: url(../images/background_left_right.jpg);
+    background-color:orangered;
+}
+
+div.content{
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    height: 700px;
+    width: 648px;
+    left: 165px;
+    position: absolute;
+    background-color:orangered;
+   }
+
+div.right{
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    left: 820px;
+    width: 150px;
+    height: 700px;
+    position: absolute;
+    background-image: url(../images/background_left_right.jpg);
+    background-color:orangered;
+}
+
+div.bottom{
+    border: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    position: absolute;
+    top: 889px;
+    height: 35px;
+    width: 963px;
+    background-image: url(../images/background_bottom.jpg);
+    background-color:orangered;    
+}
+
+p.nav{
+    margin: 2.5px;
+    float: left;
+}
+
+p.left0{
+    padding-left: 5px;
+    margin-bottom:1px;
+}
+
+p.left1{
+    padding-left: 10px;
+    margin:0px;
+}
+
+p.right0{
+    padding-left: 5px;
+    margin-bottom: 1px;
+}
+
+img{
+    border: none 0px;
+}
+table.login{
+    margin:2px;
+    padding:2px;
+    width: 95%;
+}
+
+td.td1{
+    margin: 1px;
+    text-align: left;
+}
